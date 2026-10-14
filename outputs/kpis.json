@@ -1,0 +1,14 @@
+{
+  "total_customers": 10000,
+  "churned_customers": 2037,
+  "retained_customers": 7963,
+  "overall_churn_rate": 0.2037,
+  "high_value_customers": 1596,
+  "high_value_churned_customers": 367,
+  "high_value_churn_rate": 0.2299498746867168,
+  "balance_exposure_high_value_churners": 58714368.09,
+  "inactive_customers": 4849,
+  "inactive_churn_rate": 0.26850897092183956,
+  "active_churn_rate": 0.14269073966220153,
+  "inactive_to_active_churn_rate_ratio": 1.8817547064195856
+}

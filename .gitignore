@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.deps/
+.venv/
+.streamlit/
+*.log
+tmp/

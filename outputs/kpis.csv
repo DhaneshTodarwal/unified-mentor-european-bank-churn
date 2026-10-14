@@ -1,0 +1,13 @@
+KPI,Value
+Total customers,10000.0
+Churned customers,2037.0
+Retained customers,7963.0
+Overall churn rate,0.2037
+High-value customers,1596.0
+Churned high-value customers,367.0
+High-value churn rate,0.2299498746867168
+Balance exposure of churned high-value customers,58714368.09
+Inactive customers,4849.0
+Inactive-customer churn rate,0.26850897092183956
+Active-customer churn rate,0.14269073966220153
+Inactive-to-active churn-rate ratio,1.8817547064195856

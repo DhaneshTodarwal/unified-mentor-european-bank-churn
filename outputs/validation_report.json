@@ -1,0 +1,177 @@
+{
+  "source_profile": {
+    "rows": 10000,
+    "columns": 14,
+    "column_names": [
+      "Year",
+      "CustomerId",
+      "Surname",
+      "CreditScore",
+      "Geography",
+      "Gender",
+      "Age",
+      "Tenure",
+      "Balance",
+      "NumOfProducts",
+      "HasCrCard",
+      "IsActiveMember",
+      "EstimatedSalary",
+      "Exited"
+    ],
+    "missing_by_column": {
+      "Year": 0,
+      "CustomerId": 0,
+      "Surname": 0,
+      "CreditScore": 0,
+      "Geography": 0,
+      "Gender": 0,
+      "Age": 0,
+      "Tenure": 0,
+      "Balance": 0,
+      "NumOfProducts": 0,
+      "HasCrCard": 0,
+      "IsActiveMember": 0,
+      "EstimatedSalary": 0,
+      "Exited": 0
+    },
+    "duplicate_customer_id_rows": 0,
+    "unexpected_geographies": [],
+    "unexpected_genders": [],
+    "binary_value_counts": {
+      "HasCrCard": {
+        "1": 7055,
+        "0": 2945
+      },
+      "IsActiveMember": {
+        "1": 5151,
+        "0": 4849
+      },
+      "Exited": {
+        "0": 7963,
+        "1": 2037
+      }
+    },
+    "numeric_summary": {
+      "CustomerId": {
+        "min": 15565701,
+        "max": 15815690,
+        "mean": 15690940.5694,
+        "median": 15690738.0
+      },
+      "CreditScore": {
+        "min": 350,
+        "max": 850,
+        "mean": 650.5288,
+        "median": 652.0
+      },
+      "Age": {
+        "min": 18,
+        "max": 92,
+        "mean": 38.9218,
+        "median": 37.0
+      },
+      "Tenure": {
+        "min": 0,
+        "max": 10,
+        "mean": 5.0128,
+        "median": 5.0
+      },
+      "Balance": {
+        "min": 0.0,
+        "max": 250898.09,
+        "mean": 76485.889288,
+        "median": 97198.54000000001
+      },
+      "NumOfProducts": {
+        "min": 1,
+        "max": 4,
+        "mean": 1.5302,
+        "median": 1.0
+      },
+      "HasCrCard": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.7055,
+        "median": 1.0
+      },
+      "IsActiveMember": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.5151,
+        "median": 1.0
+      },
+      "EstimatedSalary": {
+        "min": 11.58,
+        "max": 199992.48,
+        "mean": 100090.239881,
+        "median": 100193.915
+      },
+      "Exited": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.2037,
+        "median": 0.0
+      }
+    }
+  },
+  "rows_after_duplicate_removal": 10000,
+  "duplicate_rows_removed": 0,
+  "rows_with_missing_core_fields_removed": 0,
+  "invalid_binary_rows_detected": {
+    "HasCrCard": 0,
+    "IsActiveMember": 0,
+    "Exited": 0
+  },
+  "invalid_category_rows_detected": {
+    "Geography": 0,
+    "Gender": 0
+  },
+  "invalid_rows_removed_after_core_validation": 0,
+  "final_rows": 10000,
+  "final_columns": [
+    "Year",
+    "CustomerId",
+    "Surname",
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "Exited",
+    "AgeGroup",
+    "CreditScoreBand",
+    "TenureGroup",
+    "BalanceSegment",
+    "HighValueFlag",
+    "ActivityStatus",
+    "ChurnStatus"
+  ],
+  "thresholds": {
+    "age_groups": {
+      "<30": "Age < 30",
+      "30\u201345": "30 <= Age <= 45",
+      "46\u201359": "46 <= Age <= 59",
+      "60+": "Age >= 60"
+    },
+    "credit_score_bands": {
+      "Low (<580)": "CreditScore < 580",
+      "Medium (580\u2013669)": "580 <= CreditScore <= 669",
+      "High (670+)": "CreditScore >= 670"
+    },
+    "tenure_groups": {
+      "New (0\u20132)": "Tenure <= 2",
+      "Mid-term (3\u20136)": "3 <= Tenure <= 6",
+      "Long-term (7+)": "Tenure >= 7"
+    },
+    "median_positive_balance": 119839.69,
+    "high_value_balance_threshold_75th_percentile": 139512.29
+  },
+  "extra_source_columns": [
+    "Year"
+  ]
+}
